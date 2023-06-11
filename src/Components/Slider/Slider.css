@@ -1,0 +1,148 @@
+.category{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    /* border: 1px solid grey; */
+    /* box-shadow: 0px -95px 47px 14px rgba(155,155,155,1); */
+}
+
+.categoryHeading{
+width: 450px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.categoryHeading span{
+font-size: 30px;
+font-weight: lighter;
+color: grey;
+}
+.catheading{
+   position: relative;
+   right: 15%;
+
+}
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    
+   margin-bottom: 50px;
+    width: 85%;
+/* border: 1px solid yellow; */
+   
+  }
+  #cardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border : 2px solid green; */
+  }
+  
+  .slider-content {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    /* border: 2px solid green;
+    */
+    
+    gap: 50px;
+    width: fit-content;
+  }
+  
+  .slider-card {
+    flex-shrink: 0;
+    width: 20%; /* Adjust the width based on the number of visible cards */
+    text-align: center;
+    box-shadow: inset 0 0px 9px rgba(0, 0, 0, 111.2), 0 0px 29px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .slider-card img {
+    width: 100%;
+    height: auto;
+  
+  }
+  
+  .slider-card h3 {
+    margin-top: 10px;
+  }
+  
+  .slider-buttons {
+    display: flex;
+  }
+  
+  .slider-button {
+    margin-right: 10px;
+  }
+  
+  .businessModels{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    align-items: center;
+  }
+
+  .businessType{
+padding: 5px;
+margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+    border: 1px solid rgb(190, 190, 190);
+    font-weight: 400;
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 100px;
+  }
+  
+  .businessType:hover{
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+background-color:#f6353b; ;
+  }
+
+  #InterestedSection{
+height: 650px;
+    background: url('https://startupz.world/images/other/background-thedir-cover.jpg')
+  }
+
+  #businessContainer{
+    position: relative;
+    /* border: 1px solid red; */
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+background-color: white;
+  }
+
+  #Businessheading{
+    position: absolute;
+    /* border: 2px solid green; */
+   top: 0%;
+  }
+
+  #businessModelsContainer{
+    margin-top: 10%;
+/* border: 2px solid yellow; */
+top: 20%;
+  }
+/* #businessModelsContainer .businessType{
+
+    margin-bottom: 60%;
+} */
+

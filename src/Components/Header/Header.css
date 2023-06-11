@@ -1,0 +1,208 @@
+
+
+#headerContainer{
+z-index: 3;
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+position: relative;
+
+box-shadow: 0px -23px 25px 0px rgba(0,0,0,0.17) inset,
+0px -150px 30px 0px rgba(0,0,0,0.15) inset,
+0px -79px 40px 0px rgba(0,0,0,0.1) inset,
+0px 2px 1px 0px rgba(0,0,0,0.06),
+0px 4px 2px 0px rgba(0,0,0,0.09),
+0px 8px 4px 0px rgba(0,0,0,0.09),
+0px 16px 8px 0px rgba(0,0,0,0.09);
+   
+}
+
+
+  
+
+
+img{
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+#navContainer{
+    position:fixed;
+    top: 20px;
+   
+    width: 100%;
+    /* position: absolute; */
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+#logo img{
+    height: 70px;
+    width: 70px;
+}
+#navItems{
+justify-content: space-between;
+align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    /* border: 1px solid green; */
+}
+
+#navItems li{
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+#navItems li:hover{
+    cursor: pointer;
+    color: #f6353b;
+transition: all ease-in-out;
+}
+
+
+
+#rightNav{
+    width: 270px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#LogIn{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+#LogIn p,i{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold
+   
+}
+#loginP{
+    margin-bottom:27px
+}
+
+#LogIn:hover{
+    color: #FF4E53;
+}
+
+#addListingBtn button{
+    cursor: pointer;
+    width: 150px;
+    font-weight: bold;
+background-color:#FF4E53;
+color: white;
+font-size: 15px;
+border-radius: 5px;
+padding: 10px;
+border: none;
+
+
+}
+
+#addListingBtn button:hover{
+background-color: #f6353b;
+
+    
+}
+
+
+#discoverHeading{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    z-index: 2;
+/* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    height: 400px;
+}
+
+#discover h3{
+
+
+    font-size: 90px;
+}
+#discover{
+    
+    height: 100px;
+    /* border: 1px solid yellowgreen; */
+}
+
+#amazing{
+
+    height: 100px;
+    font-size: 80px;
+    /* border: 1px solid black */
+}
+
+#greatHeading{
+    
+/* border: 1px solid navy; */
+font-size: 30px;
+margin-top: 10%;
+color:#fdfdfd;
+}
+
+#searchInput{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    justify-content: space-between;
+    
+
+}
+
+#input input{
+width: 600px;
+padding: 30px;
+font-size: 20px;
+color: gray;
+border: none;
+
+}
+
+#input input:focus{
+outline: none;
+}
+
+
+#searchBtn {
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+   
+   width: 170px;
+   height: 83px;
+    border-radius: 5px;
+   
+    
+    background-color: #f6353b;
+}
+
+#searchBtn p{
+    font-size: 35px;
+}
+#searchBtn p i{
+    font-size: 40px;
+}
