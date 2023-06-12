@@ -38,21 +38,12 @@ const Footer = () => {
 </div>
 </div>
 
+
+
+
 <div className='items'>
 <div className='childitems1'>
 <h3>Quick Links</h3>
-</div>
-<div className='childitems2'>
-<p>About Us</p>
-<p>Conatct Us</p>
-<p>Pricing</p>
-</div>
-</div>
-
-
-<div className='items'>
-<div className='childitems1'>
-<h3>Company</h3>
 </div>
 <div className='childitems2'>
 <p>Community Guidelines</p>
@@ -82,9 +73,10 @@ const Footer = () => {
 <div id="SocialLinks">
 
     <div id="icons">
-<InstagramIcon/>
-<FacebookIcon/>
-<TwitterIcon/>
+        <p><InstagramIcon/></p>
+<p><FacebookIcon/></p>
+<p><TwitterIcon/></p>
+
 
     </div>
 

@@ -40,6 +40,12 @@ width: 80%;
     align-items: center;
     justify-content: space-between;
 }
+.items .childitems2 p:hover {
+    transition: all ease-in-out 0.5s;
+color: #FF4E53;
+
+}
+
 
 #SocialLinks{
     position: absolute;
@@ -58,4 +64,13 @@ width: 150px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+}
+
+
+#icons p:hover{
+    cursor: pointer;
+color: #FF4E53;
+transition: all ease-in-out 0.5s;
+
+
 }

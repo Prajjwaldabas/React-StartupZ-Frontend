@@ -64,7 +64,7 @@ align-items: center;
 #navItems li:hover{
     cursor: pointer;
     color: #f6353b;
-transition: all ease-in-out;
+transition: all ease-in-out 0.5s;
 }
 
 
@@ -96,6 +96,7 @@ transition: all ease-in-out;
 }
 
 #LogIn:hover{
+    transition: all ease-in-out 0.5s;
     color: #FF4E53;
 }
 
